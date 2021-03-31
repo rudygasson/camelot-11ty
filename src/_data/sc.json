@@ -1,26 +1,26 @@
 {
-    "Name": "Hägør Odin Haudrauffson",
-    "Alter": 27,
-    "Sozialstatus": 4,
-    "Lebenspunkte": 31,
-    "Ausdauer": 28,
-    "Astralenergie": 34,
-    "Magieresistenz": 5,
-    "Talente": {
-        "Körper": {
-            "Akrobatik": [4, 0],
-            "Athletik": [6, 13],
-            "Klettern": [8, 2],
-            "Körperbeherrschung": [6, 36],
-            "Schleichen": [6, 18],
-            "Schwimmen": [0, 1],
-            "Selbstbeherrschung": [7, 23],
-            "Sich Verstecken": [6, 0],
-            "Singen": [1, 1],
-            "Sinnesschärfe": [11, 23],
-            "Tanzen": [4, 6],
-            "Taschendiebstahl": [2, 0],
-            "Zechen": [3, 9]
-        }
+  "Name": "Hägør Odin Haudrauffson",
+  "Alter": 27,
+  "Sozialstatus": 4,
+  "Lebenspunkte": 31,
+  "Ausdauer": 28,
+  "Astralenergie": 34,
+  "Magieresistenz": 5,
+  "Talente": {
+    "Körper": {
+      "Akrobatik": [4, 0],
+      "Athletik": [6, 13],
+      "Klettern": [8, 2],
+      "Körperbeherrschung": [6, 36],
+      "Schleichen": [6, 18],
+      "Schwimmen": [0, 1],
+      "Selbstbeherrschung": [7, 23],
+      "Sich Verstecken": [6, 0],
+      "Singen": [1, 1],
+      "Sinnesschärfe": [11, 23],
+      "Tanzen": [4, 6],
+      "Taschendiebstahl": [2, 0],
+      "Zechen": [3, 9]
     }
+  }
 }
