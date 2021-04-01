@@ -1,7 +1,10 @@
-<header>
-  <div>
-    <img src="img/heart.svg" alt=""/>
-    <p>{{ sc.Lebenspunkte }}</p>
-  </div>
-  <h2>{{ sc.Name | first }}</h2>
+{% from 'header-score.njk' import score %}
+
+<link rel="stylesheet" href="/css/header.css"/>
+<header class="header">
+  {{ score('heart', sc.Lebenspunkte) }}
+  {{ score('hourglass', sc.Ausdauer) }}
+  <h2 class="header__title">{{ sc.Name | first }}</h2>
+  {{ score('wand', sc.Astralenergie) }}
+  {{ score('lightning', sc.Magieresistenz) }}
 </header>

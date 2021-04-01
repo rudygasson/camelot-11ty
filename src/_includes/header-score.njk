@@ -1,0 +1,6 @@
+{% macro score(name, value) %}
+  <div class="header-score">
+    <img class="header-score__icon" src="{{ 'img/' + name + '.svg' }}" alt=""/>
+    <p class="header-score__value">{{ value }}</p>
+  </div>
+{% endmacro %}

@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html,
@@ -28,35 +29,4 @@ main {
   padding: 1rem;
   /* max-width: 240px; */
   margin: 0;
-}
-
-header h2 {
-  margin: auto;
-  font-weight: normal;
-}
-
-header {
-  color: white;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 3rem;
-  background: #6d1919;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
-}
-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 7.5rem;
-}
-
-img {
-  height: 2rem;
-  fill: white;
 }
