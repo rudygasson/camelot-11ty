@@ -7,6 +7,8 @@
         <ul class="data-list">
         {% for talent in sc.Talente.Körper | objectkeys %}
           <li>{{ talent }}</li>
+          <progress class="talent-value" max="20" value="{{ sc.Talente.Körper[talent][0] }}"></progress>
+          <progress class="learning-points" optimum="30" max="40" value="{{ sc.Talente.Körper[talent][1] }}"></progress>
         {% endfor %}
         </ul>
       </div>
