@@ -1,0 +1,29 @@
+<main class="main-grid">
+  <div class="tabs">
+    <div class="tab">
+      <input type="radio" id="tab-1" name="tab-group-1" checked="checked"/>
+      <label class="tab-title" for="tab-1">Körper</label>
+      <div class="tab-content">
+        <ul class="data-list">
+        {% for talent in sc.Talente.Körper | objectkeys %}
+          <li>{{ talent }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="tab">
+      <input type="radio" id="tab-2" name="tab-group-1"/>
+      <label for="tab-2">Gesellschaft</label>
+      <div class="tab-content">
+        Talente
+      </div>
+    </div>
+    <div class="tab">
+      <input type="radio" id="tab-3" name="tab-group-1"/>
+      <label for="tab-3">Wissen</label>
+      <div class="tab-content">
+        Talente
+      </div>
+    </div>
+  </div>
+</main>

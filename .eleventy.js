@@ -4,6 +4,7 @@ const prettier = require("prettier");
 module.exports = function (config) {
   // Customised filters
   config.addFilter("first", (name) => name.split(" ")[0]);
+  config.addFilter("objectkeys", (object) => Object.keys(object));
 
   // Passthrough files
   config.addPassthroughCopy("src/js");

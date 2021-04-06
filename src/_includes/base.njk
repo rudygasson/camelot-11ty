@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    {# <link rel="preload" href="/css/global.css" as="style" />
+    <link rel="preload" href="/css/header.css" as="style" />
+    <link rel="preload" href="img/heart.svg" as="image" />
+    <link rel="preload" href="img/wand.svg" as="image" />
+    <link rel="preload" href="img/lightning.svg" as="image" />
+    <link rel="preload" href="img/hourglass.svg" as="image" /> #}
+
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <title>{{ sc.Name | first }}</title>
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="/css/global.css"/>
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     {% include "header.njk" %}
-    <main>
-      {{ content | safe }}
-    </main>
+    {% include "main.njk" %}
   </body>
 </html>
