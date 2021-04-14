@@ -19,6 +19,16 @@
     "Sinnesschärfe": [11, 23],
     "Tanzen": [4, 6],
     "Taschendiebstahl": [2, 0],
-    "Zechen": [3, 9]
+    "Zechen": [3, 9],
+    "Betören": [9, 2],
+    "Etikette": [4, 0],
+    "Gassenwissen": [8, 14],
+    "Menschenkenntnis": [9, 16],
+    "Sich verkleiden": [6, 0],
+    "Überreden": [11, 4],
+    "Überzeugen": [5, 1],
+    "Fährtensuchen": [0, 0],
+    "Orientierung": [2, 4],
+    "Wildnisleben": [1, 0]
   }
 }

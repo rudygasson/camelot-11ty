@@ -9,9 +9,7 @@ const spaltenfaktor = {
   H: 20
 };
 
-function skt(talentwert, spalte) {
+exports.skt = (talentwert, spalte) => {
   let faktor = spaltenfaktor[spalte];
   return Math.round(talentwert ** 1.2 * 0.8 * faktor);
 }
-
-exports.skt = skt;
