@@ -1,3 +1,5 @@
+const { skt } = require("./config.js");
+
 const path = require("path");
 const prettier = require("prettier");
 
@@ -5,6 +7,11 @@ module.exports = function (config) {
   // Customised filters
   config.addFilter("first", (name) => name.split(" ")[0]);
   config.addFilter("objectkeys", (object) => Object.keys(object));
+
+  // Shortcodes
+  config.addShortcode("leRequired", (talentwert, spalte) => {
+    return skt(Number(talentwert), spalte).toString();
+  });
 
   // Passthrough files
   config.addPassthroughCopy("src/js");
